@@ -6,10 +6,16 @@ ul  {
     display: flex;
     flex-direction: row;
     list-style: none;
+    background-color: rgba(0,74,173,255);
+    border-radius: 25px;
+    
+    
 }
 ul li h1 {
-    color: blue;
+    color: white;
     padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+
 }
 ul li a{
     text-decoration: none;
