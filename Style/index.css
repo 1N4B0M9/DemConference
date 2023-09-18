@@ -2,25 +2,49 @@ main {
     padding: 0px;
     margin: 0px;
 }
+
 ul  {
     display: flex;
     flex-direction: row;
     list-style: none;
     background-color: rgba(0,74,173,255);
     border-radius: 25px;
-    
+    padding: 10px
+
     
 }
+
+
 ul li h1 {
     color: white;
     padding: 10px;
     font-family: Arial, Helvetica, sans-serif;
 
 }
+ul li h1:hover {
+    color: red;
+}
+ul li {
+
+}
 ul li a{
     text-decoration: none;
 }
 ul li img {
+    width: 100px;
     height: 100px;
-    width: 100%;
 }
+.register {
+    background-color: white;
+    color: rgba(0,74,173,255);
+    border-radius: 25px;
+}
+li:last-child {
+    margin-left: auto;
+  }
+.contact {
+    margin-left: auto;
+
+
+}
+
